@@ -7,23 +7,27 @@
     <link rel="stylesheet" href="about.css">
 </head>
 <body>
-    <header>
-        <div>
-        <img src="comScience_logo.png" width="30%">
-        </div>
-        <div>
-        <a href="/home/index.html" class="margin-left">Home</a>
-        <a href="/home/index.html">About</a>
-        <a href="/home/index.html">Faculty</a>
-        <a href="/home/index.html">Research</a>
+    <header class="container-header">
+        <div class="navbar">
+            <img src="comScience_logo.png" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="/11288153_DCIT205/home/index.html">Home</a></li>
+                    <li><a href="/11288153_DCIT205/About/about.html">About</a></li>
+                    <li><a href="/11288153_DCIT205/faculty/faculty.html">Faculty</a></li>
+                    <li><a href="/11288153_DCIT205/research groups/research groups.html">Research Groups</a></li>
+                </ul>
+            </nav>
+            <img src="images.png" class="menu-icon">
         </div>
     </header>
+    <main style="margin-top: 20px;">
     <div id="div">
         <img src="download.jpeg" height="400px">
         <h1>About Us</h1>
         <p>
             <a href="home.html">Home</a>
-            <span></span>
+            <span style="margin-right: 20px;"></span>
             <a href="about.html">About Us </a>
         </p>
     </div>
@@ -58,110 +62,113 @@
     </p>
     </div>
     <section id="KnowUs">
-        <div>
-            <img src="g4.jpg" width="50%">
-            <h3>
-                Our Organization
-            </h3>
-            <p>
+        <div class="images-text">
+            <img src="g4.jpg" width="50%" style="margin-right: 20px;">
+            <div>
+                <h3>Our Organization</h3>
+                <p>
                 The University of Ghana is one of the Africa's most preeminent public universities.
                 Our impact on individuals, our region and the world is profound. whether we are launching young
                  people into a boundless future or confronting the grand challenges of our time through dauntless research.
                   UG educates more than 38,000students annually, with approximately 2.64% being computer science students. We turn ideas
                 into impact and transform the world around us. For more about our impact, 
                 visit our news site, UG News.
-            </p>
+                </p>
+            </div>
         </div>
-        <div>
-            <img src="PHOTO-2019-03-04-14-42-37.jpg" width="50%" style="text-align: right;">
-            <h3>
-                Our Community
-            </h3>
+        <div class="images-text">
+            <div style="text-align: center;">
+            <h3>Our Community</h3>
             <p>
                 If you are inspired by a big challenge, you've come to the right place! 
                 The computer science community at the univrersity of Ghana encourages it's 
                 people to be vibrant and brave in taking on new challenges that push boundries beyond imagination.
             </p>
+            </div>
+                <img src="PHOTO-2019-03-04-14-42-37.jpg" width="50%" style="margin-left: 20px;">
         </div>
-        <div>
-            <img src="PHOTO-2019-03-04-14-45-13 2.jpg" width="50%">
-            <h3>
-                Distance Learning
-            </h3>
+        <div class="images-text">
+            <img src="PHOTO-2019-03-04-14-45-13 2.jpg" width="50%" style="margin-right: 20px;">
+            <div>
+            <h3>Distance Learning</h3>
             <p>
                 Experience a UG-CDCD classroom from wherever you are. Take advantage of real-time lectures and 
                 personal interaction with professors through a suite of online delivery options, customizing your degree to fit your schedule.
                 Our online classroom maintains the same level of academic rigor, while providing students with more ways of learning.
             </p>
+            </div>
         </div>
     </section>
-    <table width="100%" height="50%" cellspacing="1" cellpadding="10"  class="container">
-        <tr>
-            <th>Academics</th>
-            <th>Admission</th>
-            <th>Research</th>
-            <th>About the Department</th>
-        </tr>
-        <tr>
-            <td>Undergraduate Courses</td>
-            <td>Undergraduate</td>
-            <td>Research at DCS</td>
-            <td>Introducing DCS</td>
-        </tr>
-        <tr>
-            <td>Graduate Courses(MPhil Computer Science)</td>
-            <td>Graduate</td>
-            <td>Research Impact</td>
-            <td>Head of Department's office</td>
-        </tr>
-        <tr>
-            <td>Graduate Courses(MSc Computer Science)</td>
-            <td>International Students</td>
-            <td>Libraries</td>
-            <td>Faculty</td>
-        </tr>
-        <tr>
-            <td>Graduate Courses(PhD)</td>
-            <td>Entry Requirements</td>
-            <td></td>
-            <td>Events</td>
-        </tr>
-        <tr>
-            <td>Level 200 & 300 Timetable</td>
-        </tr>
-        <tr>
-            <td>Placements For Level 200 Students</td>
-        </tr>
-        <tr>
-            <td>Student Complaint Form</td>
-        </tr>
-        <tr>
-            <th>Newsletter</th>
-            <th>Contact Us</th>
-            <th>Location</th>
-        </tr>
-        <tr>
-            <td>Stay update with our latest</td>
-            <td>Phone & Email</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>
-                <form>
-                    <label for="email">Email Address:</label>
-                    <input type="email" id="email" name="email" required>
-                    <button type="submit">Submit</button>
-                </form>
-            </td>
-            <td> 
-                +233 501 382 <br>
-                 +233 559 145 698<br>
-                e-mail - dcs@ug.edu.gh
-            </td>
-            <td>University Of Ghana,<br> Legon Campus<br>
-                Opposite Mathematics Department</td>
-        </tr>
-    </table>
+    </main>
+    <footer>
+        <table width="100%" height="50%" cellspacing="1" cellpadding="10"  class="container">
+            <tr>
+                <th><u>Academics</u></th>
+                <th><u>Admission</u></th>
+                <th><u>Research</u></th>
+                <th><u>About the Department</u></th>
+            </tr>
+            <tr>
+                <td><a href="/11288153_DCIT205/Undegraduate programs/Undegraduate programs.html">Undergraduate Courses</a></td>
+                <td>Undergraduate</td>
+                <td><a href="/11288153_DCIT205/research groups/research groups.html">Research at DCS</a></td>
+                <td>Introducing DCS</td>
+            </tr>
+            <tr>
+                <td><a href="/11288153_DCIT205/Msc programmes/msc.html">Courses(MPhil Computer Science)</a></td>
+                <td>Graduate</td>
+                <td>Research Impact</td>
+                <td>Head of Department's office</td>
+            </tr>
+            <tr>
+                <td><a href="/11288153_DCIT205/Msc programmes/msc.html">Graduate Courses(MSc Computer Science)</a></td>
+                <td>International Students</td>
+                <td>Libraries</td>
+                <td><a href="/11288153_DCIT205/faculty/faculty.html">Faculty</a></td>
+            </tr>
+            <tr>
+                <td><a href="/11288153_DCIT205/Phd programmes/phd.html">Graduate Courses(PhD)</a></td>
+                <td>Entry Requirements</td>
+                <td></td>
+                <td><a href="/11288153_DCIT205/events/events.html">Events</a></td>
+            </tr>
+            <tr>
+                <td>Level 200 & 300 Timetable</td>
+            </tr>
+            <tr>
+                <td>Placements For Level 200 Students</td>
+            </tr>
+            <tr>
+                <td>Student Complaint Form</td>
+            </tr>
+            <tr>
+                <th><u>Newsletter</u></th>
+                <th><u><a href="/11288153_DCIT205/Contact/contact.html">Contact Us</a></u></th>
+                <th><u>Location</u></th>
+            </tr>
+            <tr>
+                <td>Stay update with our latest</td>
+                <td>Phone & Email</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    <form>
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" placeholder="Email Address" required>
+                        <button type="submit" class="button">Submit</button>
+                    </form>
+                </td>
+                <td> 
+                    +233 501 382 <br>
+                     +233 559 145 698<br>
+                    e-mail - dcs@ug.edu.gh
+                </td>
+                <td>University Of Ghana,<br> Legon Campus<br>
+                    Opposite Mathematics Department</td>
+            </tr>
+        </table>
+    </footer>
 </body>
 </html>
