@@ -4,29 +4,51 @@ body{
     font-size: large;
     margin-left: 30px;
     margin-right: 30px;
-    background-color: lightskyblue;
 }
-header {
+.container-header{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1000; 
-    margin-bottom: 30px;
+    box-sizing: border-box;
     background-color: white;
+    z-index: 1000;
+    margin-bottom: 30px;
 }
 
-header img {
-    width: 30%;
-    margin-right: 10px;
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
 }
 
-header h5 {
-    margin-left: 20px;
+.logo{
+    width: 220px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(216, 194, 165);
 }
 
 .container {
@@ -38,7 +60,7 @@ header h5 {
     width: 90%;
     padding: 15px;
     margin: 10px;
-    border: 5px solid #ccc;
+    border: 5px solid rgb(64, 64, 124);
     background-color: white;
     border-radius: 8px;
     margin-bottom: 40px;
@@ -50,6 +72,48 @@ h2, h3, p {
 
 hr{
     color: #000;
-    border: 1px solid #000; /* Set the border color to black */
+    border: 1px solid rgb(71, 71, 139); /* Set the border color to black */
     margin: 20px 0; 
+}
+.faculty-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+img {
+    border-radius: 20px;
+}
+.container2{
+    background-color: rgb(48, 48, 112);
+    padding: 20px;
+    color: white;
+    text-align: left;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+a{
+    color: azure;
+}
+a:hover{
+    color: burlywood;
+}
+a{
+    text-decoration: none;
 }
