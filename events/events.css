@@ -1,43 +1,88 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    background-color: whitesmoke;
 }
 
-header {
+.container-header{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1000; 
-    margin-bottom: 30px;
+    box-sizing: border-box;
     background-color: white;
+    z-index: 1000;
+    margin-bottom: 30px;
 }
 
-header img {
-    width: 30%;
-    margin-right: 10px;
-}
-
-header h5 {
-    margin-left: 20px;
-}
-
-.container {
+.navbar{
+    height: 12%;
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
-    margin-top: 30px;
+}
+
+.logo{
+    width: 220px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+a:hover{
+    color: navajowhite;
 }
 
 .container2 {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 
+.container{
+    background-color: rgb(48, 48, 112);
+    padding: 20px;
+    color: white;
+    text-align: left;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
 
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+a{
+    color: azure;
+    text-decoration: none;
+}
+a:hover{
+    color: burlywood;
+}
