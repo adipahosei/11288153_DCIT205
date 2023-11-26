@@ -6,29 +6,44 @@ body{
     margin-left: 30px;
 
 }
-header {
+.container-header{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1000; 
-    margin-bottom: 30px;
+    box-sizing: border-box;
     background-color: white;
+    z-index: 1000;
+    margin-bottom: 30px;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
 }
 
-header img {
-    width: 30%;
-    margin-right: 10px;
+.logo{
+    width: 220px;
+    cursor: pointer;
 }
-
-.margin-left{
-    margin-right:150px;
+.menu-icon{
+    width: 30px;cursor: pointer;
+    margin-left: 40px;
 }
-
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
 
 #div {
     position: relative;
@@ -70,7 +85,7 @@ header img {
 }
 
 .container{
-    background-color: rgb(6, 6, 122);
+    background-color: rgb(48, 48, 112);
     padding: 20px;
     color: white;
     text-align: left;
@@ -87,11 +102,24 @@ input {
     box-sizing: border-box;
 }
 
-button {
+.button {
     background-color: #4CAF50;
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+a:hover{
+    color: burlywood;
+}
+.images-text{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 30px;
 }
