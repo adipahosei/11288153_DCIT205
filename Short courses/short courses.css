@@ -1,11 +1,9 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
+    font-weight: 40px;
     margin-left: 30px;
     margin-right: 30px;
-    padding: 0;
 }
-
 .container-header{
     position: fixed;
     top: 0;
@@ -16,7 +14,6 @@ body{
     z-index: 1000;
     margin-bottom: 30px;
 }
-
 .navbar{
     height: 12%;
     display: flex;
@@ -92,10 +89,6 @@ a:hover{
     margin-bottom: 100px;
     margin-top: 200px;
 }
-
-
-
-
 
 
 .container{
