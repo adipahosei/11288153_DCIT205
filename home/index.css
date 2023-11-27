@@ -69,10 +69,44 @@ video{
     border: 5px solid rgb(74, 74, 141);
     padding: 20px;
 }
-
-
-
-
+.container3{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: whitesmoke;
+    align-items: center;
+}
+.container4{
+    display: flex;
+}
+.card{
+    height: 500px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+#img{
+    height: 500px;
+    width: 350px;
+    border-radius: 3px;
+}
+.intro{
+    height: 200px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 1400px;
+    background: rgb(27, 27, 27, .5);
+    color: white;
+}
+#p{
+    font-size: 20px;
+    margin: 20px;
+}
+.card:hover{
+    cursor: pointer;
+}
 .container2{
     background-color: rgb(48, 48, 112);
     padding: 20px;
